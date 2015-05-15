@@ -1,0 +1,5 @@
+name = Drupal Remote Dashboard Views
+description = Exposes DRD data to Views
+core = 7.x
+dependencies[] = views
+dependencies[] = drd

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Exposes DRD data to the views module.
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function drd_views_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'drd_views') . '/includes/views',
+  );
+}
